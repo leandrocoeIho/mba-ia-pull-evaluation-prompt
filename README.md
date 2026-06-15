@@ -8,7 +8,7 @@ Este projeto faz o pull de um prompt de baixa qualidade (`leonanluppi/bug_to_use
 - **Modelo de avaliação (juiz)**: `gpt-4o`
 - **Critério de aprovação**: todas as 5 métricas ≥ 0.9 e média geral ≥ 0.9
 
-> **Nota sobre o critério:** o enunciado original do desafio (`devfullcycle/mba-ia-pull-evaluation-prompt`) define o mínimo como 0.8 em todas as métricas. O `src/evaluate.py` fornecido (arquivo que não deve ser alterado) já impõe um critério mais estrito - todas as métricas + média ≥ 0.9 -, que é o que este projeto efetivamente segue e atende. Os resultados da seção B atendem a ambos os critérios.
+> **Nota sobre o critério:** em 09/06/2026 o repositório oficial do desafio reduziu a pontuação mínima de aprovação de 0.9 para 0.8 em todas as métricas. Este projeto foi desenvolvido com o critério anterior (≥ 0.9, mais exigente) e os resultados da seção B atendem a ambos os critérios (0.8 e 0.9).
 
 ## Estrutura do projeto
 
